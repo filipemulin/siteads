@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Light', 'Segoe UI', sans-serif;
+}
+
+section.header {
+    height: 500px;
+    width: 100vw;  
+    background-color: black;  
+    position: relative;
+}
+body {
+    background: #f2f7f5;
+}
+.bg {
+    height: 500px;
+    width: 100vw;  
+    background-image: url(img/SfJWcfw.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -20px;
+    opacity: 70%;
+    position: absolute;
+
+}
+
+section .nav_container {
+    position: relative;
+    padding: 12px 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .nav_container a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+section .nav_container a+a {
+    opacity: 80%;
+}
+section .nav_container img {
+    height: 28px;
+}
+
+section .text_container {
+    top: 80px;
+    position: relative;
+    text-align: center;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+
+section .text_container h1 {
+    font-size: 2.75em;
+    line-height: 1.3;
+}
+
+section .text_container p {
+    margin-top: 20px;
+}
+
+section .button {
+    display: grid;
+    place-items: center;
+    position: relative;
+    top: 40px;
+    background-color: #41a853;
+    color: white;
+    width: 170px;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main {
+    color: #222;
+}
+
+main .instructions {
+    color: #222;
+    padding: 0 115px;
+    height: 350px;
+
+}
+
+main h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.145em;
+    line-height: 1.3;
+
+}
+
+main .instructions .instructions_grid {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main .instructions .instructions_grid .box {
+    margin-top: 40px;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+}
+
+main .instructions .instructions_grid .box h1 { 
+    margin-top: 0;
+    font-size: 40px;
+}
+
+main .instructions .instructions_grid .box h3 { 
+    font-size: 1.3em;
+    margin-top: 8px;
+}
+
+main .instructions .instructions_grid .box p { 
+    margin-top: 25px;
+    line-height: 1.5em;
+}
+
+main .selects p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+main .selects .filters {
+    margin-top: 25px;
+    padding: 0px 120px;
+
+}
+
+main .selects .filters ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    height: 150px;
+    gap: 10px 20px;
+    justify-content: center;
+}
+
+main .selects .filters ul button {
+    border: 2px solid #3d3d3d;
+    padding: 5px 12px;
+    border-radius: 20px;
+    min-width: 100px;
+    width: auto;
+    max-height: 35px;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+main .selects .filters ul button:focus {
+    background-color: #3D3D3D;
+    color: white;
+    outline: none;
+}
+
+main .cards {
+    padding: 30px 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+} 
+main .cards a {
+    text-decoration: none;
+}
+main .cards .box {
+    width: 250px;
+    height: 350px;
+    background-color: #222;
+    text-decoration: none;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 100ms;
+}
+main .cards .box:hover {
+    transform: scale(1.04)
+}
+main .cards .box .sim {
+    color: white;
+    position: relative;
+
+}
+
+main .cards .box .image {
+    background-image: url(img/1.jpg);
+    height: 200px;
+    opacity: 80%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+main .cards .box .sim p {
+    bottom: 5px;
+    position: absolute;
+    margin-left: 10px;
+    color: white;
+    
+}
+
+main .cards .box .desc {
+    padding: 18px 18px;
+    color: #222;
+    height: 100%;
+    background-color: white;
+}
+
+main .cards .box .desc h2 {
+    font-size: 20px;
+}
+main .cards .box .desc h5 {
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 1.5em;
